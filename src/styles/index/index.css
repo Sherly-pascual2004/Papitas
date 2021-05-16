@@ -1,0 +1,41 @@
+body{
+    background: url(../../media/fondo.png);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 6%;
+    padding: 5%;
+}
+
+.titulo{
+    background: rgb(221, 128, 128, 0.5);
+    font-family: 'Anton', sans-serif;
+    font-size: 50px;
+}
+
+.contenido{
+    background:rgb(255, 255, 255, 0.5);
+    font-size: 40px;
+}
+
+.contenido2{
+    background:rgb(255, 255, 255, 0.5);
+    font-size: 40px;
+}
+
+.link{
+    font-size: 300%;
+    display: flex;
+    text-decoration: none;
+    color: rgb(221, 31, 31);
+}
+
+.img{
+    width: 25px;
+    height: 30px;
+}
+
+@media screen and (max-width: 900px){
+    .body{
+        width: 110px;
+    }
