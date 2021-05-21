@@ -3,19 +3,20 @@ body{
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 6%;
     padding: 5%;
+    margin: 0%;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .titulo{
     background: rgb(221, 128, 128, 0.5);
-    font-family: 'Anton', sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: 50px;
 }
 
-.contenido{
+.conocenos{
     background:rgb(255, 255, 255, 0.5);
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .contenido2{
@@ -31,11 +32,25 @@ body{
 }
 
 .img{
-    width: 25px;
-    height: 30px;
+    width: 400px;
+    height: 300px;
+    background: rgb(255, 255, 255, 0.5);
+    display: flex;
+    align-items: center;
 }
 
-@media screen and (max-width: 900px){
-    .body{
-        width: 110px;
-    }
+.ubicacion{
+    background:rgb(255, 255, 255, 0.5);
+    font-size: 20px;
+}
+
+.info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 1s;
+    text-decoration: none;
+    list-style: none;
+    color: rgb(0, 0, 0);
+    background: rgb(255, 255, 255, 0.5);
+}
