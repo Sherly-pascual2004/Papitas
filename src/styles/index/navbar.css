@@ -40,20 +40,23 @@
 }
 
 @media screen and (max-width: 900px){
-    .menu a, .menu li{
-        width: 110px;
+    .nav-bar{
+        display: flex;  
+        justify-content: space-between;
     }
-
-    .menu li:hover{
-        font-size: 15px;
-    }
-
-    .img_logo{
-        width: 40px;
-        margin-left: 30px;
+    .nav-items a{
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        font-size: 5px;
     }
     
-    .img_logo:hover{
-        width: 50px;
+    .nav-items a:hover{
+        font-size: 10px;
+    }
+    
+    .nav-logo{
+        width: 40px;
+        margin-left: 20px;
     }
 }

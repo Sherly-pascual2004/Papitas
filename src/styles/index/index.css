@@ -54,3 +54,36 @@ body{
     color: rgb(0, 0, 0);
     background: rgb(255, 255, 255, 0.5);
 }
+
+@media screen and (max-width: 900px) {
+    body{
+        padding: 0;
+        margin: 0;
+    }
+
+    .titulo{
+        font-size: 20px;
+    }
+    
+    .conocenos{
+        font-size: 15px;
+    }
+    
+    .contenido2{
+        font-size: 20px;
+    }
+    
+    .link{
+        font-size: 40%;
+    }
+    
+    .img{
+        width: 50px;
+        height: 40px;
+    }
+    
+    .ubicacion{
+        font-size: 15px;
+    }
+    
+}

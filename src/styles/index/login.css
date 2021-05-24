@@ -87,3 +87,61 @@ ul.slider li:target{
     display: flex;
     justify-content: end;
 }
+
+@media screen and (max-width:900px) {
+    .contenido{
+        margin: auto;
+        width: 30px;
+        padding: 0px;
+    }
+    
+    ul, li{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+    }
+    
+    ul.slider{
+        position: relative;
+        width: 300px;
+        height: 100px;
+    }
+    
+    ul.slider li{
+        left: 0px;
+        top: 0px;
+        opacity: 0;
+        width: inherit;
+        height: inherit;
+        transition: opacity .5s;
+    }
+    
+    ul.slider li img{
+        width: 80%;
+        height: 100px;
+        object-fit: contain;
+    }
+    
+    .menu{
+        text-align: center;
+        margin: 5px;
+    }
+    
+    .menu li a{
+        padding: 1px;
+        width: 7px;
+        height: 7px;
+        font-size: 7px;
+        border-radius: 50%;
+    }
+    
+    .titulo{
+        font-size: 10px;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .final{
+        font-size: 5px;
+    }
+}
